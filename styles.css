@@ -1,0 +1,59 @@
+.parent-div{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-child1{
+    display: flex;
+    align-items: flex-start;
+}
+.nav-child2{
+   align-items: flex-end;
+   height: 80px;
+   line-height: 80px;
+   justify-content: space-between;
+   margin-right: 10px;
+}
+#button{
+width: 120px;
+margin-right: 5px;
+}
+.flex-cards{
+height: 100px;
+background-color: white;
+margin-top: 130px;
+}
+.card-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+    border-radius: 5%;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.own-footer{
+    height: 400px;
+    width: 100%;
+    background-color: papayawhip;
+    border: 15px palevioletred dotted;
+    display: flex;
+}
+.foot-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 80px;
+    color: purple;
+}
+.foot-logo{
+    margin-left: 80px;
+    color: purple;
+    margin-top: 20px;
+    width: 50%;
+}
